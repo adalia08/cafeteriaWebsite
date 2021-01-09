@@ -1,0 +1,86 @@
+body {
+    /*Remove default spacing*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+        background-image: linear-gradient(120deg, #F35353, #89E089);
+    
+    /*Default text settings*/
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        color: white;
+        transition: 2.5s;
+    }
+    
+        /*Nav bar*/
+            header {
+                background: white;
+    
+                /*Align text items in nav bar*/
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            header > h4 {
+                color: black;
+                font-family: 'Poppins', sans-serif;
+                font-size: 30px;
+            }
+            .nav-links {
+                display: flex;
+                justify-content: space-around;
+                width: 30%;
+            }
+                .nav-links a {
+                    color: #263544;
+                    text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+    
+    /*Page contents*/
+        body > h1 {
+            font-size: 65px;
+            margin-bottom: 70px;
+        }
+
+        .profile-container{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+                padding-left: 275px;
+                padding-right: 335px;
+        }
+        /*Left side contents*/
+            img {
+                width: 450px;
+            }
+            .student-number{
+                font-size: 60px;
+                margin-top: 15px;
+                background:#8DD7D7;
+            }
+        /*Right side contents*/
+            .allergies-container{
+                text-align: left;
+                margin-left: 15px;
+                background:white;
+                margin-bottom: 200px;
+            }
+        
+                .allergies-container h2{
+                    font-size: 30px;
+                    margin-bottom: 40px;
+                    padding-left: 10px;
+                    color: black;
+                }
+                .allergies-list{
+                    font-size: 25px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                    .allergies-list li{
+                        padding-left: 10px;
+                        margin-bottom: 15px;
+                        color: black;
+                    }
+            

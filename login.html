@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="global.css">
+
+    <title> SMLS Dinning Hall</title>
+
+</head>
+
+<body>
+        <header> <!--Navigation Bar 1: when user is not logged in-->
+            <h4>brain kitchen</h4>
+            <ul class = "nav-links">
+                <li>
+                    <a href = "homepage.html">Home</a> 
+                </li>
+                <li>
+                    <a href = "login.html">Log In</a> 
+                </li>
+            </ul>
+        </header>
+    <div class="form-container"> <!-- form itself -->
+        
+            <h1>LOGIN</h1>
+            <h3>Please enter your username and password.</h3>
+        <p>
+            <input id="username" type="text" name="Username" placeholder="Username">
+        </p>
+        <p>
+            <input id="password" type="password" name="Password" placeholder="Password">
+        </p>
+        <p>
+            <button class="butbut" type="button" onclick="getInfo()"> SUBMIT </button> <!-- when clicked run my log in function-->
+        </p>
+
+       
+        <p class="EHH" id="demo"></p>
+    </div>
+    
+
+
+    <script src="login.js"></script>
+</body>
+
+</html>

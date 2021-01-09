@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> SMLS Dinning Hall</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
+</head>
+
+<body>
+
+        <header> 
+                <h4>brain kitchen</h4>
+                <ul class = "nav-links">
+                    <li>
+                        <a href = "studentVoting.html">Vote</a> 
+                    </li>
+                    <li>
+                            <a href = "studentProfile.html">Profile</a> 
+                        </li>
+                    <li>
+                        <a href = "homepage.html">Log Out</a> 
+                    </li>
+                </ul>
+            </header>
+    <section class="cont">
+        <table>
+             <!-- the meal table -->
+            <tr>
+                <th> </th>
+                <th> Monday </th>
+                <th> Tuesday </th>
+                <th> Wednesday </th>
+                <th> Thursday </th>
+                <th> Friday </th>
+
+            </tr>
+            <!--  almost every cell is associated with a javascript function allowing the student to vote -->
+            <tr>
+                <td>Soup</td>
+                <td id="monSoup" onclick="voteMS()"> </td> 
+                <td id="tuesSoup" onclick="voteTUS()"></td>
+                <td id="wedSoup" onclick="voteWS()"></td>
+                <td id="thursSoup" onclick="voteTHS()"></td>
+                <td id="friSoup" onclick="voteFS()"></td>
+            </tr>
+            <tr>
+                <td>Bowls/Sandwhiches</td>
+                <td id="monBowl" onclick="voteMB()"></td>
+                <td id="tuesBowl" onclick="voteTUB()"></td>
+                <td id="wedBowl"  onclick="voteWB()"></td>
+                <td id="thursBowl"  onclick="voteTHB()"></td>
+                <td id="friBowl"  onclick="voteFB()"></td>
+            </tr>
+            <tr>
+                <td>Hot Bar</td>
+                <td id="monHot" onclick="voteMH()"></td>
+                <td id="tuesHot" onclick="voteTUH()"></td>
+                <td id="wedHot"  onclick="voteWH()"></td>
+                <td id="thursHot" onclick="voteTHH()"></td>
+                <td id="friHot" onclick="voteFH()"></td>
+            </tr>
+            <tr>
+                <td>Vegetarian</td>
+                <td id="monVeg" onclick="voteMV()"></td>
+                <td id="tuesVeg" onclick="voteTUV()"></td>
+                <td id="wedVeg" onclick="voteWV()"></td>
+                <td id="thursVeg" onclick="voteTHV()"></td>
+                <td id="friVeg" onclick="voteFV()"></td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                <td id="monPizza" onclick="voteMP()"></td>
+                <td id="tuesPizza" onclick="voteTUP()"></td>
+                <td id="wedPizza" onclick="voteWP()"></td>
+                <td id="thursPizza" onclick="voteTHP()"></td>
+                <td id="friPizza" onclick="voteFP()"></td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <p id = "cantClick"></p>
+    </section>
+
+    <script src="studentVoting.js"></script>
+</body>
+
+</html>

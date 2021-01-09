@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Kitchen Account - Studio</title>
+        <!--link icon database to html code-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+        <!--CSS stuff-->
+        <link rel="stylesheet" href="danaStudio.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <header> <!--Navigation Bar 1: when user is not logged in-->
+            <h4>brain kitchen</h4>
+            <ul class = "nav-links">
+                <li>
+                    <a href = "danaVoting.html">Upload</a> 
+                </li>
+                <li>
+                     <a href = "danaStudio.html">Studio</a> 
+                </li>
+                <li>
+                    <a href = "homepage.html">Log Out</a> 
+                </li>
+            </ul>
+         </header>
+
+
+        <h1>Studio</h1>
+            <p>See statistical weekly recaps, the popularity of each of your meals, and your diet restrictions record here.</p>
+        <h3>Meal Statistics</h3>
+        <form> <!--add in new menu items-->
+            <input type = "text" class="inventory-input">
+            <button class="submit-button" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+        </form>
+        <div class="inventory-container"> <!--holder for user added-in items-->
+            <ul class="inventory-list"></ul>
+        </div>
+        <h3>Allergery & Restrictions Statistics</h3>
+        <!--Would be just for their top allergies (i.e. the preset list they already include in Dining Hall)-->
+        <div class = "restrictionTypes">
+            <h4>Vegetarian</h4>
+            <h4>Vegan</h4>
+            <h4>Dairy</h4>
+            <h4>Gluten-Free</h4>
+        </div>
+        <div class = "restriction-numbers">
+            <h2 id = "veggie-number">0</h2>
+            <h2 id = "vegan-number">0</h2>
+            <h2 id = "dairy-number">0</h2>
+            <h2 id = "gluten-number">0</h2>
+        </div>
+        
+        <script src="danaStudio.js"></script>
+    </body>
+
+</html>

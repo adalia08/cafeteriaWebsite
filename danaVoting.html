@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> SMLS Dinning Hall</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
+</head>
+
+<body>
+        <header> 
+            <h4>brain kitchen</h4>
+            <ul class = "nav-links">
+                <li>
+                    <a href = "danaVoting.html">Upload</a> 
+                </li>
+                <li>
+                     <a href = "danaStudio.html">Studio</a> 
+                </li>
+                <li>
+                    <a href = "homepage.html">Log Out</a> 
+                </li>
+            </ul>
+        </header>
+        <!-- <h1 class="menu"> MENU </h1> -->
+    <div class="cont">    
+        <table>
+            <tr>
+                <th></th>
+                <th> Monday </th>
+                <th> Tuesday </th>
+                <th> Wednesday </th>
+                <th> Thursday </th>
+                <th> Friday </th>
+            </tr>
+            <tr>
+                <td><strong>Soup</strong> </td>
+                <td><select class="drop" id="monSoup">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="monSoupOp"></p>
+                    <p id="monSoupVotes"></p>
+                </td>
+                <td><select id="tuesSoup">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="tuesSoupOp"></p>
+                    <p id="tuesSoupVotes"></p>
+                </td>
+                <td><select id="wedSoup">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="wedSoupOp"></p>
+                    <p id="wedSoupVotes"></p>
+                </td>
+                <td><select id="thursSoup">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="thursSoupOp"></p>
+                    <p id="thursSoupVotes"></p>
+                </td>
+                <td><select id="friSoup">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="friSoupOp"></p>
+                    <p id="friSoupVotes"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>Bowls/Sandwhiches</td>
+                <td><select id="monBowl">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="monBowlOp"></p>
+                    <p id="monBowlVotes"></p>
+                </td>
+                <td><select id="tuesBowl">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="tuesBowlOp"></p>
+                    <p id="tuesBowlVotes"></p>
+                </td>
+                <td><select id="wedBowl">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="wedBowlOp"></p>
+                    <p id="wedBowlVotes"></p>
+                </td>
+                <td><select id="thursBowl">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="thursBowlOp"></p>
+                    <p id="thursBowlVotes"></p>
+                </td>
+                <td><select id="friBowl">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="friBowlOp"></p>
+                    <p id="friBowlVotes"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>Hot Bar</td>
+                <td><select id="monHot">
+                        <option> Choose a meal </option>  
+                    </select> 
+                    <p id="monHotOp"></p>
+                    <p id="monHotVotes"></p>
+                </td>
+                <td><select id="tuesHot">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="tuesHotOp"></p>
+                    <p id="tuesHotVotes"></p>
+                </td>
+                <td><select id="wedHot">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="wedHotOp"></p>
+                    <p id="wedHotVotes"></p>
+                </td>
+                <td><select id="thursHot">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="thursHotOp"></p>
+                    <p id="thursHotVotes"></p>
+                </td>
+                <td><select id="friHot">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="friHotOp"></p>
+                    <p id="friHotVotes"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>Vegetarian</td>
+                <td><select id="monVeg">
+                        <option> Choose a meal </option>
+                    </select> 
+                    <p id="monVegOp"></p>
+                    <p id="monVegVotes"></p>
+                </td>
+                <td><select id="tuesVeg">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="tuesVegOp"></p>
+                    <p id="tuesVegVotes"></p>
+                </td>
+                <td><select id="wedVeg">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="wedVegOp"></p>
+                    <p id="wedVegVotes"></p>
+                </td>
+                <td><select id="thursVeg">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="thursVegOp"></p>
+                    <p id="thursVegVotes"></p>
+                </td>
+                <td><select id="friVeg">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="friVegOp"></p>
+                    <p id="friVegVotes"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                <td><select id="monPizza">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="monPizzaOp"></p>
+                    <p id="monPizzaVotes"></p> 
+                </td>
+                <td><select id="tuesPizza">
+                        <option> Choose a meal </option> 
+                    </select>
+                    <p id="tuesPizzaOp"></p>
+                    <p id="tuesPizzaVotes"></p>
+                </td>
+                <td><select id="wedPizza">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="wedPizzaOp"></p>
+                    <p id="wedPizzaVotes"></p>
+                </td>
+                <td><select id="thursPizza">
+                        <option> Choose a meal </option>
+                    </select>
+                    <p id="thursPizzaOp"></p>
+                    <p id="thursPizzaVotes"></p>
+                </td>
+                <td><select id="friPizza">
+                        <option> Choose a meal </option>       
+                    </select>
+                    <p id="friPizzaOp"></p>
+                    <p id="friPizzaVotes"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <!-- class="butbut" -->
+        <button id="SOS">SAVE</button>
+        <button id="lock">PUSH</button>
+    </div>
+    
+</body>
+<script src="danaVoting.js"></script>
+</html>
